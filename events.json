@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ignacio Doe",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Bennett",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "createdBy": 1,
+      "title": "Trampoline party",
+      "description": "Bounce around with your friends",
+      "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
+      "categoryIds": [
+        2
+      ],
+      "location": "My back yard",
+      "startTime": "2023-03-10T18:00",
+      "endTime": "2023-03-10T17:00:00.000Z",
+      "categories": "3"
+    },
+    {
+      "id": 2,
+      "createdBy": 1,
+      "title": "Laser Tag mania",
+      "description": "Let's play laser tag!",
+      "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
+      "categoryIds": [
+        2
+      ],
+      "location": "Blinded by the Lights Laser Tag, 15 Main St.",
+      "startTime": "2023-04-06T18:46",
+      "endTime": "2023-04-06T17:46"
+    },
+    {
+      "id": 3,
+      "createdBy": 2,
+      "title": "Badminton game",
+      "description": "Hit that shuttle!",
+      "image": "https://s3.eu-west-2.amazonaws.com/ws-activestirling/production/Badminton/_1200x630_crop_center-center_none/Badminton-3.jpg",
+      "categoryIds": [
+        1,
+        2
+      ],
+      "location": "The Park",
+      "startTime": "2023-03-15T12:00:00.000Z",
+      "endTime": "2023-03-15T13:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "createdBy": 2,
+      "title": "Yoga",
+      "description": "It's a bit of a stretch.",
+      "image": "https://ymcasouthflorida.org/wp-content/uploads/2019/12/AA2I8910-scaled.jpg",
+      "categoryIds": [
+        3
+      ],
+      "location": "Shavasana Yoga School",
+      "startTime": "2023-03-09T06:00:00.000Z",
+      "endTime": "2023-03-09T07:00:00.000Z"
+    },
+    {
+      "image": "https://cdn.stocksnap.io/img-thumbs/960w/wine-tasting_T8FNYMYTHK.jpg",
+      "title": "Wine tasting",
+      "description": "Come and enjoy a collection of fine wines!",
+      "startTime": "2023-12-22T19:00",
+      "endTime": "2023-12-22T22:00",
+      "categoryIds": [
+        3
+      ],
+      "id": 5
+    },
+    {
+      "image": "https://media.istockphoto.com/photos/various-board-games-leisure-hobby-background-games-picture-id1076877918?k=6&m=1076877918&s=170667a&w=0&h=SetnLie9u7ANaNlIqZBL8LwLjFkzfZWSbNUUFKKObgw=",
+      "title": "Gamenight",
+      "description": "it's on!!",
+      "startTime": "2024-01-02T18:30",
+      "endTime": "2024-01-02T21:30",
+      "categoryIds": [
+        2
+      ],
+      "id": 6
+    },
+    {
+      "image": "https://media.istockphoto.com/photos/young-man-at-sunset-picture-id496261146?k=20&m=496261146&s=612x612&w=0&h=GL0o8IvBWs7c6XWfzr3ICSpzvI0IeUZlR0aAA5Nji3c=",
+      "title": "Photoshop workshop",
+      "description": "Learn how to edit like a pro",
+      "startTime": "2023-08-24T12:00",
+      "endTime": "2023-08-24T15:00",
+      "categoryIds": [
+        3
+      ],
+      "id": 7
+    },
+    {
+      "image": "https://media.istockphoto.com/photos/female-artist-works-on-abstract-oil-painting-moving-paint-brush-she-picture-id1183183783?k=20&m=1183183783&s=612x612&w=0&h=R8xdLD5zFvKp1eIynd7DnDi-Y7JjfagT5LY142Lu9sU=",
+      "title": "Paint workshop",
+      "description": "Let's make some art!",
+      "startTime": "2024-02-05T16:00",
+      "endTime": "2024-02-05T18:00",
+      "categoryIds": [
+        3
+      ],
+      "id": 8
+    },
+    {
+      "image": "https://images.creativemarket.com/0.1.0/ps/5850983/1820/1213/m1/fpnw/wm1/iblcsxcrrsyk5q1od294ouwgrtupdxmi11fsjeoermvh8tn6vzfupmaz25w68mzr-.jpg?1549634378&s=ef5caa2ee9c3bd2ec510dadf76727247",
+      "title": "Small group training ",
+      "description": "Are you ready, to get sweaty!?",
+      "startTime": "2023-12-04T08:00",
+      "endTime": "2023-12-04T09:00",
+      "categoryIds": [
+        1
+      ],
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "name": "sports",
+      "id": 1
+    },
+    {
+      "name": "games",
+      "id": 2
+    },
+    {
+      "name": "relaxation",
+      "id": 3
+    }
+  ]
+}
